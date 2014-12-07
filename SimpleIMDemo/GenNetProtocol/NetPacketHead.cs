@@ -20,8 +20,8 @@ namespace GenNetProtocol
     public class NetPacketHead
     {
         public const Int32 HEAD_SIZE = 16;
-        public Int32 PType { get; set; }
         public Int32 Version { get; set; }
+        public Int32 PType { get; set; }
         public Int32 EncryType { get; set; }
         public Int32 dataLen { get; set; }
 

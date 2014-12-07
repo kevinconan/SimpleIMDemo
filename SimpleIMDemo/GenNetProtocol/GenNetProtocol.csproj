@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EncryptionTools.cs" />
+    <Compile Include="IEncryptionTool.cs" />
     <Compile Include="ISerializeTool.cs" />
     <Compile Include="NetPacker.cs" />
     <Compile Include="NetPacket.cs" />

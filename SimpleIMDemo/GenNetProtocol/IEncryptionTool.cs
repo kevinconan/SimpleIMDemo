@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace GenNetProtocol
 {
-   public class NetPacket
+    interface IEncryptionTool
     {
-        public NetPacketHead PacketHead { get; set; }
-        public object Data { get; set; }
+        byte[] Encrypt(byte[] _bytes);
+        byte[] Dencrypt(byte[] _bytes);
     }
 }
